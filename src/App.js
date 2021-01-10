@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './App.css';
 import { Box } from './components/Box';
+import WordsList from './components/WordsList';
+import { draggableList } from './data/mock-data';
 
 function App() {
   // track index of box for DnD
@@ -21,9 +23,9 @@ function App() {
         < Box card={index === 2} moveCard={moveCard.bind(null, 2)} />
         <Box card={index === 3} moveCard={moveCard.bind(null, 3)} />
 
-        {/* <ol>
-          <List wordsList={draggableList} />
-        </ol> */}
+        <ol>
+          <WordsList wordsList={draggableList} />
+        </ol>
       </header>
     </div>
   );

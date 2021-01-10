@@ -37,20 +37,12 @@
   }
 }
 
-/* 
-.word-item {
-  border: 2px solid white;
-  margin: 2rem;
-  padding: .5rem;
-}
-*/
-
-.box {
+.box, .word-item {
   border: 2px solid white;
   margin: 2rem;
   padding: .5rem;
 }
 
-.card { 
+.card, .word-item { 
   background-color: gray;
 }
