@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+/* 
+.word-item {
+  border: 2px solid white;
+  margin: 2rem;
+  padding: .5rem;
+}
+*/
+
+.box {
+  border: 2px solid white;
+  margin: 2rem;
+  padding: .5rem;
+}
+
+.card { 
+  background-color: gray;
+}
